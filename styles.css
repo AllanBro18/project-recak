@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fffcff;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #efe9f4;
+  color: #000000;
+}
+
+.navbar a {
+  color: #000000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.dropdown-menu {
+  background-color: #ffffff;
+}
+header {
+  height: 100vh;
+  background-color: #57a773;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+    url(images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fffcff;
+}
+
+#tahukah {
+  height: 50vh;
+}
+
+#putih {
+  height: 75vh;
+}
+
+#biru {
+  background-color: #08b2e3;
+  height: 75vh;
+}
+footer {
+  /* background-color: #babde2; */
+  height: 20vh;
+}
+
+#gambar {
+  width: 100%;
+  height: auto;
+}
+#judul {
+  font-family: "Poppins", sans-serif;
+  font-size: 72px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+.custom-pattern {
+  background: linear-gradient(-45deg, #0000 1.3%, #fffcff 0 32%, #0000 0),
+    linear-gradient(45deg, #0000 48%, #08b2e3 0 52%, #0000 0),
+    linear-gradient(45deg, #0000 1.3%, #fffcff 0 32%, #0000 0) calc(41px / 2)
+      calc(41px / 2),
+    linear-gradient(-45deg, #0000 48%, #08b2e3 0 52%, #0000 0) #fffcff;
+  background-size: calc(2 * 41px) 41px, 41px 41px;
+}
+
+.custom-pattern-2 {
+	background:
+		linear-gradient(-45deg,#0000 1.3%,#FFFCFF 0 32%,#0000 0),
+		linear-gradient( 45deg,#0000  48%,#C3C3C3 0 52%,#0000 0),
+		linear-gradient( 45deg,#0000 1.3%,#FFFCFF 0 32%,#0000 0) calc(73px/2) calc(73px/2),
+		linear-gradient(-45deg,#0000  48%,#C3C3C3 0 52%,#0000 0) #FFFCFF;
+	background-size: calc(2*73px) 73px,73px 73px;
+}
+
+#gambar-contoh {
+  width: 75%;
+  height: auto;
+}
+
+.box {
+  height: 75%;
+  background-color: #08b2e3;
+  border-radius: 32px;
+}
+
+#lampu {
+  width: 20%;
+  height: auto;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+}
+
+.foto-judul {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  color: #fffcff;
+}
+
+#satu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(images/tawuran.webp);
+}
+#dua {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(images/geng\ motor.jpg);
+}
+#tiga {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(images/senjata\ tajam.jpg);
+}
+#empat {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(images/narkoba.webp);
+}
+
+#body-quiz {
+  background-color: #08b2e3;
+}
+.app {
+  background-color: #fffcff;
+  width: 90%;
+  border-radius: 10px;
+}
+
+#kerjakan {
+    background: #efe9f4;
+    font-weight: 600;
+    border: #efe9f4 solid 2px;
+    border-radius: 16px;
+    transition: 0.5s;
+}
+#kerjakan:hover {
+    font-weight: bolder;
+    border: #efe9f4 solid 2px;
+    background-color: #08b2e3;
+    transition: 0.5s;
+}
+
+.btn-jawaban {
+    background: #efe9f4;
+    border: black solid 1px;
+}
+
+#boxes {
+    background-color: #08b2e3;
+    width: 90%;
+    border-radius: 16px;
+}
+#it-partner {
+    background-color: #efe9f4;
+    /* width: 90%; */
+    border-radius: 16px;
+}
+.socials {
+    background: #efe9f4;
+    /* width: 50%; */
+    border-radius: 16px;
+}
+#instagram {
+    max-width: 24px;
+    height: auto;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#logo-bk {
+    max-height: 48px;
+}
+
+#logo-bk:hover { /* jadi ky hndk tegugur wariknya */
+    transform: rotate(15deg) scale(1.5) translate(5px, 5px);
+    transition: 0.5s;
+}
